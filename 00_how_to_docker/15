@@ -1,0 +1,1 @@
+docker run --network toPass --name roach-warden -d -p 8081:80 -e PMA_HOST=spawning-pool phpmyadmin/phpmyadmin
